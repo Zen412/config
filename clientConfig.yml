@@ -1,0 +1,23 @@
+
+spring:
+  application:
+    name: flight-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/moloair
+    username: root
+    password: Nkabinde@442
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8202
+
+loyalty:
+  discount:
+      flights:
+        selection:
+          futureDays: 365
+        limit: 5
+      fares:
+        rate: 0.8
