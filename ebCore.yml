@@ -7,7 +7,10 @@ eureka:
     lease-renewal-interval-in-seconds: 5
 
 spring:
-   jpa:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=FNB_database;encrypt=false;trustServerCertificate=true
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
     hibernate:
       ddl-auto: update
     properties:
