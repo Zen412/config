@@ -12,7 +12,12 @@ spring:
     username: sa
     password: Nkabinde@442
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
 
 server:
   port: 8201
