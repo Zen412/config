@@ -20,4 +20,4 @@ spring:
         dialect: org.hibernate.dialect.SQLServerDialect
 
 server:
-  port: 1111
+  port: 8202
