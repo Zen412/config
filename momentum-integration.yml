@@ -11,7 +11,7 @@ spring:
     url: jdbc:sqlserver://localhost:1433;databaseName=FNB_database;encrypt=false;trustServerCertificate=true
     username: sa
     password: Nkabinde@442
-    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     hibernate:
       ddl-auto: update
