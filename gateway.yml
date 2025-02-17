@@ -14,11 +14,11 @@ spring:
         - id: momentum-integration
           uri: http://localhost:8202
           predicates:
-            - Path=/gateway/momentum/**
+            - Path=/gateway/momentum/info
         - id: ebCore
           uri: http://localhost:8201
           predicates:
-            - Path=/gateway/ebCore/**
+            - Path=/gateway/ebCore/info
 
 server:
   servlet:
